@@ -1,0 +1,25 @@
+@media (max-width: 1156px){
+    .container{
+        max-width: 776px;
+    }
+    .cards-content_card{
+        margin-bottom: 30px;
+    }
+    .card-description{
+        font-size: 17px;
+
+    }
+}
+@media (max-width: 776px){
+    .container{
+       max-width: 320px;
+    }
+    .cards-content_card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-img{
+        width: 100%;
+        height: 100%;
+    }
+}
